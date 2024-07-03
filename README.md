@@ -1,7 +1,19 @@
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U82G0A5)
-
 # windows-desktop-switcher
-An AutoHotkey script for Windows that lets a user switch virtual desktops by pressing <kbd>CapsLock</kbd> and a number row key at the sime time (e.g. <kbd>CapsLock</kbd> + <kbd>2</kbd> to switch to Desktop 2). It also provides other features, such as customizing the key combinations, creation/deletion of desktops by hotkey, etc. (see Hotkeys section below).
+
+## Introduction
+
+This repository is a fork of the original [windows-desktop-switcher](https://github.com/pmb6tz/windows-desktop-switcher) created by [pmb6tz](https://github.com/pmb6tz). The original project provides an AutoHotkey script for Windows that allows users to switch virtual desktops using hotkeys such as <kbd>CapsLock</kbd> + number keys, among other features like customizing key combinations and managing desktops via hotkeys.
+
+This fork was created to add new features and fix compatibility issues with Windows 11 updates. The specific modifications include:
+
+- **"Make window available on all desktops" feature**: This feature has been added to allow users to pin a window across all virtual desktops.
+- **Fixes for Windows 11 Build 22631.3007**: Updated the `VirtualDesktopAccessor.dll` from the [latest release](https://github.com/Ciantic/VirtualDesktopAccessor/releases) to resolve the issue of the script not working with the latest Windows 11 update.
+
+Full credit for the original idea and implementation goes to pmb6tz. You can find the original repository [here](https://github.com/pmb6tz/windows-desktop-switcher). If you find this project useful, consider 
+
+### support [pmb6tz](https://github.com/pmb6tz) on Ko-fi:
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U82G0A5)
 
 ## Hotkeys
 
